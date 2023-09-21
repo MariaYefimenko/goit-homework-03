@@ -5,9 +5,41 @@ body {
     font-style: normal;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 /*========================HEADER===================*/
 .header-section {
     font-style: normal;
+    
 }
 
 address {
@@ -43,6 +75,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .navigation-item-link:hover,
 .navigation-item-link:focus {
     color:#404BBF;
@@ -51,7 +84,6 @@ address {
 .navigation-sectors {
     list-style: none;
 }
-
 
 .header-address-list {
     list-style: none;
@@ -103,6 +135,7 @@ li .address:focus {
     background-color: #4D5AE5;
     cursor: pointer;
 }
+
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
@@ -112,6 +145,12 @@ li .address:focus {
 /*====================SECOND===============================*/
 
 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
