@@ -1,0 +1,248 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+    font-style: normal;
+}
+
+/*========================HEADER===================*/
+.header-section {
+    font-style: normal;
+}
+
+address {
+    font-style: normal;
+}
+
+.header-logo-link {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    color:#4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-color {
+    color: #2e2f42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.navigation-item-link {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.navigation-item-link:hover,
+.navigation-item-link:focus {
+    color:#404BBF;
+}
+
+.navigation-sectors {
+    list-style: none;
+}
+
+
+.header-address-list {
+    list-style: none;
+    font-style: normal;
+}
+
+ul .header-address-item {
+    font-style: normal;
+}
+
+li .address {
+    text-decoration: none;
+    color: #434455;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+li .address:hover,
+li .address:focus {
+    color: #404BBF;
+    font-style: normal;
+}
+/*=======================================================*/
+
+/*========================MAIN===========================*/
+
+.main-section {
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.main-header-first {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+/*=========================================================*/
+
+/*====================SECOND===============================*/
+
+.visually-hidden {
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.second-section-list {
+    list-style: none;
+}
+
+.second-section-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.second-section-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+/*==========================================================*/
+
+/*======================THIRD==============================*/
+
+.third-section {
+    background-color: #F4F4FD;
+}
+
+.third-section-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.third-section-list {
+    list-style: none;
+}
+
+.third-section-item {
+    background-color: #FFFFFF;
+}
+
+.third-section-hthree {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.third-section-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*==========================================================*/
+/*============================FOURTH========================*/
+
+.fourth-section-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.fourth-section-list {
+    list-style: none;
+}
+
+.fourth-section-hthree {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.fourth-section-class {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*=======================================================*/
+/*=====================FOOTER============================*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    text-decoration: none;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-color {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    }
