@@ -23,12 +23,6 @@ ol {
     padding-left: 0;
 }
 
-img {
-    display: block;
-    max-width: 100%; 
-    height: auto;
-}
-
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -204,7 +198,7 @@ li .address:focus {
 }
 
 .second-section {
-    padding: 24px 0;
+    padding: 120px 0;
 }
 
 .second-section-list {
@@ -240,7 +234,7 @@ li .address:focus {
 
 .third-section {
     background-color: #F4F4FD;
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .third-section-header {
@@ -297,7 +291,7 @@ li .address:focus {
 /*============================SECTION PORTFOLIO========================*/
 
 .fourth-section {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 
 .fourth-section-header {
