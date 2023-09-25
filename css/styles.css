@@ -34,7 +34,24 @@ ol {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.section-wrap {
+    padding: 120px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
 /*========================HEADER===================*/
+
 .header-section {
     border-bottom: 1px solid #E7E9FC;
     display: flex;
@@ -65,22 +82,11 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    display: inline-block;
     margin-right: 76px;
     }
 
 .header-logo-color {
     color: #2e2f42;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    display: inline-block;
 }
 
 .navigation-sectors {
@@ -96,15 +102,12 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .navigation-item-link:hover,
 .navigation-item-link:focus {
     color:#404BBF;
 }
-
 
 .head-address {
     font-style: normal;
@@ -135,12 +138,12 @@ li .address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 li .address:hover,
 li .address:focus {
     color: #404BBF;
     font-style: normal;
 }
-/*=======================================================*/
 
 /*========================MAIN===========================*/
 
@@ -171,8 +174,6 @@ li .address:focus {
     color:#FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
-    display: flex;
-    padding: 16px 32px;
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     border: none;
@@ -186,7 +187,6 @@ li .address:focus {
 .main-button:focus {
     background-color: #404BBF;
 }
-/*=========================================================*/
 
 /*====================SECTION 2===============================*/
 
@@ -201,10 +201,6 @@ li .address:focus {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.second-section {
-    padding: 120px 0;
 }
 
 .second-section-list {
@@ -234,26 +230,10 @@ li .address:focus {
     letter-spacing: 0.02em; 
 }
 
-/*==========================================================*/
-
 /*======================SECTION TEAM==============================*/
 
 .third-section {
     background-color: #F4F4FD;
-    padding: 120px 0;
-}
-
-.third-section-header {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin: 0 auto;
-    margin-bottom: 72px;
-
 }
 
 .third-section-list {
@@ -264,13 +244,9 @@ li .address:focus {
 
 .third-section-item {
     background-color: #FFFFFF;
-    width: calc((100% - 24 * 3)/ 4);
+    width: calc((100% - 24px * 3)/ 4);
     border-radius: 0 0 4px 4px;
 }
-
-/* .third-section-img {
-    margin-bottom: 32px;
-} */
 
 .section-three-cont {
     text-align: center;
@@ -293,23 +269,8 @@ li .address:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/*==========================================================*/
+
 /*============================SECTION PORTFOLIO========================*/
-
-.fourth-section {
-    padding: 120px 0;
-}
-
-.fourth-section-header {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
 
 .fourth-section-list {
     list-style: none;
@@ -345,7 +306,7 @@ li .address:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/*=======================================================*/
+
 /*=====================FOOTER============================*/
 
 .footer {
